@@ -30,16 +30,34 @@ else:
     print("")
 
 # calculate gst and total price
-gst = 0.0
-
 provinceAbbr = input("Please enter the 2 letters province abbreviation: ")
-
+provinceAbbr.upper()
+match provinceAbbr:
+    case "AB":
+        gst = 0.5
+    case "BC":
+        gst = 0.5
+    case "MB":
+        gst = 0.5
+    case "NT":
+        gst = 0.5
+    case "NU":
+        gst = 0.5
+    case "QC":
+        gst = 0.5
+    case "SK":
+        gst = 0.5
+    case "yt":
+        gst = 0.5
+    case "ON":
+        gst = 0.13
+    case others:
+        gst = 0.15
 gst_money = price_after * gst
 total_price = price_after + gst_money
 
 print("---------------------------------------------------------------------------------")
 print("Product      # Of Litres    Price Before    Price After    GST    Total Price")
-print(f"{product}      {litres}         {price_before}            {price_after}           {gst}   {total_price}")
+print(f"{product}      {litres}         {price_before}            {price_after}           {gst_money}   {total_price}")
 print("---------------------------------------------------------------------------------")
 print("Thanks for your business, Good Bye")
-
