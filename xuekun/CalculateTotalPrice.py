@@ -24,14 +24,21 @@ price_after = 0.0
 
 if isOilOption:
     # calculate oil price -- zeo to do
-    print("")
+    cases = float(input("Enter # of cases of Oil: "))
+    litres = cases*12
+    original_cost_per_litre = 1.27
+    price_before = litres*original_cost_per_litre
+    if(cases > 8):
+        price_after = price_before*0.9
+    else:
+        price_after = price_before
 else:
     # calculate gas price -- keith to do
     print("")
 
 # calculate gst and total price
 provinceAbbr = input("Please enter the 2 letters province abbreviation: ")
-provinceAbbr.upper()
+provinceAbbr = provinceAbbr.upper()
 match provinceAbbr:
     case "AB":
         gst = 0.5
@@ -53,7 +60,7 @@ match provinceAbbr:
         gst = 0.13
     case others:
         gst = 0.15
-gst_money = price_after * gst
+gst_money = round(price_after * gst, 2)
 total_price = price_after + gst_money
 
 print("---------------------------------------------------------------------------------")
