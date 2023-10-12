@@ -41,21 +41,21 @@ provinceAbbr = input("Please enter the 2 letters province abbreviation: ")
 provinceAbbr = provinceAbbr.upper()
 match provinceAbbr:
     case "AB":
-        gst = 0.5
+        gst = 0.05
     case "BC":
-        gst = 0.5
+        gst = 0.05
     case "MB":
-        gst = 0.5
+        gst = 0.05
     case "NT":
-        gst = 0.5
+        gst = 0.05
     case "NU":
-        gst = 0.5
+        gst = 0.05
     case "QC":
-        gst = 0.5
+        gst = 0.05
     case "SK":
-        gst = 0.5
+        gst = 0.05
     case "yt":
-        gst = 0.5
+        gst = 0.05
     case "ON":
         gst = 0.13
     case others:
