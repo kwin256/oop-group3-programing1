@@ -37,6 +37,7 @@ if isOilOption:
         price_after = price_before
 else:
     # calculate gas price -- keith to do
+    product = "Gas"
     print("")
 
 # calculate gst and total price
