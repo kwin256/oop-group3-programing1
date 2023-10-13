@@ -14,6 +14,8 @@ isGasOption = purchaseType == "g" or purchaseType == "G"
 # invalid option check
 if not isOilOption and not isGasOption:
     print("Invalid input, you should enter g/G or o/O")
+
+    # if this is not permit, pls use else to contain content below
     sys.exit()
 
 # order detail variables
