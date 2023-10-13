@@ -1,0 +1,36 @@
+linyichens-MacBook-Air:Web Dev linyichen$ /usr/local/bin/python3 /Users/linyichen/Downloads/CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>>  O
+Enter # of cases of Oil: 10
+Please enter the 2 letters province abbreviation: ab
+---------------------------------------------------------------------------------
+Product      # Of Litres    Price Before    Price After    GST    Total Price
+Oil      120.0         152.4            137.16           6.86   144.02
+---------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+
+
+
+
+
+linyichens-MacBook-Air:Web Dev linyichen$ /usr/local/bin/python3 /Users/linyichen/Downloads/CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> o
+Enter # of cases of Oil: 5
+Please enter the 2 letters province abbreviation: on
+---------------------------------------------------------------------------------
+Product      # Of Litres    Price Before    Price After    GST    Total Price
+Oil      60.0         76.2            76.2           9.91   86.11
+---------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+linyichens-MacBook-Air:Web Dev linyichen$

@@ -1,0 +1,11 @@
+D:\app\python\python.exe D:\workspace\github\oop-group3-programing1\xuekun\CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> w
+Invalid input, you should enter g/G or o/O
+
+Process finished with exit code 0
