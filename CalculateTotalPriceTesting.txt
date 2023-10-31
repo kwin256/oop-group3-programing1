@@ -1,0 +1,88 @@
+D:\app\python\python.exe D:\workspace\github\oop-group3-programing1\xuekun\CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> w
+Invalid input, you should enter g/G or o/O
+
+Process finished with exit code 0
+
+
+[13:56] Yiu Kei Chan
+/usr/local/bin/python3 /Users/keithsueybrian/Desktop/oop/CalculateTotalPrice.py
+keithsueybrian@keithsueybriandeMacBook-Pro HTML % /usr/local/bin/python3 /Users/keithsueybrian/Desktop/oop/CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> G
+Please enter the number of litres of gas:5000
+Please enter the 2 letters province abbreviation: AB
+---------------------------------------------------------------------------------
+Product      # Of Litres    Price Before    Price After    GST    Total Price
+Gas      5000.0         5350.0            4815.0           240.75   5055.75
+---------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+keithsueybrian@keithsueybriandeMacBook-Pro HTML %
+
+
+
+[13:57] Yiu Kei Chan
+/usr/local/bin/python3 /Users/keithsueybrian/Desktop/oop/CalculateTotalPrice.py
+keithsueybrian@keithsueybriandeMacBook-Pro HTML % /usr/local/bin/python3 /Users/keithsueybrian/Desktop/oop/CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> g
+Please enter the number of litres of gas:3000
+Please enter the 2 letters province abbreviation: on
+---------------------------------------------------------------------------------
+Product      # Of Litres    Price Before    Price After    GST    Total Price
+Gas      3000.0         3210.0            3210.0           417.3   3627.3
+---------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+keithsueybrian@keithsueybriandeMacBook-Pro HTML %
+
+
+linyichens-MacBook-Air:Web Dev linyichen$ /usr/local/bin/python3 /Users/linyichen/Downloads/CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>>  O
+Enter # of cases of Oil: 10
+Please enter the 2 letters province abbreviation: ab
+---------------------------------------------------------------------------------
+Product      # Of Litres    Price Before    Price After    GST    Total Price
+Oil      120.0         152.4            137.16           6.86   144.02
+---------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+
+
+
+linyichens-MacBook-Air:Web Dev linyichen$ /usr/local/bin/python3 /Users/linyichen/Downloads/CalculateTotalPrice.py
+-------------------------------------------------
+*** Welcome to Gas Station Supplier Program! ***
+-------------------------------------------------
+Please select the type of purchase:
+G: Gas
+O: Oil
+>>> o
+Enter # of cases of Oil: 5
+Please enter the 2 letters province abbreviation: on
+---------------------------------------------------------------------------------
+Product      # Of Litres    Price Before    Price After    GST    Total Price
+Oil      60.0         76.2            76.2           9.91   86.11
+---------------------------------------------------------------------------------
+Thanks for your business, Good Bye
+linyichens-MacBook-Air:Web Dev linyichen$

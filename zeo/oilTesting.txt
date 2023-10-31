@@ -16,8 +16,6 @@ Thanks for your business, Good Bye
 
 
 
-
-
 linyichens-MacBook-Air:Web Dev linyichen$ /usr/local/bin/python3 /Users/linyichen/Downloads/CalculateTotalPrice.py
 -------------------------------------------------
 *** Welcome to Gas Station Supplier Program! ***
